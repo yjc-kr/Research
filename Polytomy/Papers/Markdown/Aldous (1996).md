@@ -10,6 +10,11 @@
 - The most basic model = Beta-splitting model
 - Derive Beta-splitting model of $\beta = 0$ (Yule model) and $\beta = -\frac{3}{2}$ (Uniform model) with probability formula.
 
+## To Read
+- [^(17)]
+- [^(2)]
+- [^(3)]
+
 ## Abstract
 > By analogy with the theory surrounding the Ewens sampling formula in neutral population genetics, we ask whether there exists a natural one-parameter family of probability distributions on cladograms ("evolutionary trees") which plays a central role in neutral evolutionary theory. Unforunately the answer seems to be "no" - see Conjecture 2. But we can embed the two most popular models into an interesting family which we call "beta-splitting" models. We briefly describe some mathematical results about this family, which exhibits qualitatively different behavior for different ranges of the parameter $\beta$.
 
