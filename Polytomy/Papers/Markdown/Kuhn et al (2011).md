@@ -44,17 +44,17 @@
 > Ruminant = 반추동물 \
 > Primate = 영장류
 
-[^(Maddison(1989))]:
-[^(Desalle(1994))]:
-[^(Hoelzer(1994a))]:
-[^(Hoelzer(1994b))]:
-[^(BiSSE(2007))]:
-[^(FitzJohn(2009))]:
-[^(Rabosky(2006))]:
-[^(Isaac(2007))]:
-[^(Davies(2004))]:
-[^(Hernandez(2005))]:
-[^(Ranwez(2007))]:
+[^(Maddison(1989))]: Maddison, W; Reconstructing character evolution on polytomous cladograms; 1989;
+[^(Desalle(1994))]: Desalle, R., Absher, R., Amato, G.; Speciation and phylogenetic resolution; 1994;
+[^(Hoelzer(1994a))]: Hoelzer, G., Meinick, D.; Patterns of speciation and limits to phylogenetic resolution; 1994;
+[^(Hoelzer(1994b))]: Hoelzer, G., Meinick, D.; Reply from G.A. Hoelzer and D.J. Melnick; 1994;
+[^(BiSSE(2007))]: 
+[^(FitzJohn(2009))]: FitzJohn, R., Maddison, W., Otto, S.; Estimating trait-dependent speciation and extinction rates from incompletely resolved phylogenies; 2009;
+[^(Rabosky(2006))]: Rabosky, D.; LASER: A maximum likelihood toolkit for detecting temporal shifts in diversification rates from molecular phylogenies; 2006;
+[^(Isaac(2007))]: Issac, N.J.B., Turvey, S.T., Collen, B., Waterman, C., Baillie, J.E.M.; Mammals on the EDGE: conservation priorities based on threat and phylogeny; 2007;
+[^(Davies(2004))]: Davies, T.J., Barraclough, T.G., M.W., Soltis, P.S., Soltis, D.E., Savolainen, V.; Darwin's abominable mystery: insights from a supertree of the angiosperms; 2004;
+[^(Hernandez(2005))]: Hernandez, F.M., Vrba, E.S.; A complete estimate of the phylogenetic relationships in Ruminantia: a dated species-level supertree of the extant ruminants; 2005;
+[^(Ranwez(2007))]: Ranwez, V., Berry, V., Criscuolo, A., Fabre, P.H., Guilemot, S., Scornavacca, C., Douzery, E.J.P.; PhySIC: a veto supertree method with desirable properties; 2007;
 
 - Two general approach (Both implemented within a Bayesian framework)
     1. Addition of missing taxa as empty sequences at the tree inference stage where the placement of missing species can be constrained using priors on topology.
@@ -78,11 +78,11 @@
   - RND/RND2 ([^(Day(2008))])
     - randomly assigned to paths created during polytomy resolution
 
-[^(Purvis(1995))]:
-[^(Bininda(2007))]:
-[^(Fritz(2009))]:
-[^(Webb(2008))]:
-[^(Day(2008))]:
+[^(Purvis(1995))]: Purvis, A.; A composite estimate of primate phylogeny; 1995;
+[^(Bininda(2007))]: Bininda-Emonds, O.R.P., Cardillo, M., Jones, K.E., MacPhee, R., Beck, R.M.D., Grenyer, R., Price, S.A., Vos, R.A., Gittleman, J.L., Purvis, A.; The delayed rise of present-day mammals; 1982;
+[^(Fritz(2009))]: Fritz, S.A., Bininda-Emonds, O.R.P., Purvis, A.; Geographical variation in predictors of mammalian extinction risk: big is bad, but only in the tropics; 2009;
+[^(Webb(2008))]: Webb, C.O., Ackerly, D.D., Kembel, S.W.; Phylocom: software for the analysis of phylogenetic community structure and trait evolution; 2008;
+[^(Day(2008))]: Day, J.J., Cotton, J.A., Barraclough, T.G.; Tempo and mode of diversification of Lake Tanganyika Cichlid Fishes; 2008;
 
 - We present alternative approach: const. rate birth-death model to sample from topologies and branch length distributions. (BD approach)
   - Used `BEAST`.
