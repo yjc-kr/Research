@@ -1,0 +1,695 @@
+Cell,Lineage Names
+AB,P0 a
+ADAL,AB plapaaaapp
+ADAR,AB prapaaaapp
+ADEL,AB plapaaaapa
+ADER,AB prapaaaapa
+ADEshL,AB arppaaaa
+ADEshR,AB arpppaaa
+ADEsoL,H2L aa
+ADEsoR,H2R aa
+ADFL,"AB alpppppaa,AB alpppppaa"
+ADFR,AB praaappaa
+ADLL,AB alppppaad
+ADLR,AB praaapaad
+AFDL,AB alpppapav
+AFDR,AB praaaapav
+AIAL,AB plppaappa
+AIAR,AB prppaappa
+AIBL,AB plaapappa
+AIBR,AB praapappa
+AIML,AB plpaapppa
+AIMR,AB prpaapppa
+AINL,AB alaaaalal
+AINR,AB alaapaaar
+AIYL,AB plpapaaap
+AIYR,AB prpapaaap
+AIZL,AB plapaaapav
+AIZR,AB prapaaapav
+ALA,AB alapppaaa
+ALML,AB arppaappa
+ALMR,AB arpppappa
+ALNL,AB plapappppap
+ALNR,AB prapappppap
+AMshL,AB plaapaapp
+AMshR,AB praapaapp
+AMsoL,AB plpaapapa
+AMsoR,AB prpaapapa
+AQR,QR ap
+AS1,P1 apa
+AS2,P2 apa
+AS3,P3 apa
+AS4,P4 apa
+AS5,P5 apa
+AS6,P6 apa
+AS7,P7 apa
+AS8,P8 apa
+AS9,P9 apa
+AS10,P10 apa
+AS11,P11 apa
+ASEL,AB alppppppaa
+ASER,AB praaapppaa
+ASGL,AB plaapapap
+ASGR,AB praapapap
+ASHL,AB plpaappaa
+ASHR,AB prpaappaa
+ASIL,AB plaapapppa
+ASIR,AB praapapppa
+ASJL,AB alpppppppa
+ASJR,AB praaappppa
+ASKL,AB alpppapppa
+ASKR,AB praaaapppa
+AUAL,AB alpppppppp
+AUAR,AB praaappppp
+AVAL,AB alppaaapa
+AVAR,AB alaappapa
+AVBL,AB plpaapaap
+AVBR,AB prpaapaap
+AVDL,AB alaaapalr
+AVDR,AB alaaapprl
+AVEL,AB alpppaaaa
+AVER,AB praaaaaaa
+AVFL/R,"P1 aaaa,W aaa"
+AVG,AB prpapppap
+AVHL,AB alapaaaaa
+AVHR,AB alappapaa
+AVJL,AB alapapppa
+AVJR,AB alapppppa
+AVKL,AB plpapapap
+AVKR,AB prpapapap
+AVL,AB prpappaap
+AVM,QR paa
+AWAL,AB plaapapaa
+AWAR,AB praapapaa
+AWBL,AB alpppppap
+AWBR,AB praaappap
+AWCL,AB plpaaaaap
+AWCR,AB prpaaaaap
+B,AB prppppapa
+BAGL,AB alppappap
+BAGR,AB arappppap
+BDUL,AB arppaappp
+BDUR,AB arpppappp
+C,P0 ppa
+CA1,P3 aapa
+CA2,P4 aapa
+CA3,P5 aapa
+CA4,P6 aapa
+CA5,P7 aapa
+CA6,P8 aapa
+CA7,P9 aapa
+CA8,P10 aapa
+CA9,P11 aapa
+CANL,AB alapaaapa
+CANR,AB alappappa
+CEMDL,AB plaaaaaap
+CEMDR,AB arpapaaap
+CEMVL,AB plpaapapp
+CEMVR,AB prpaapapp
+CEPDL,AB plaaaaappa
+CEPDR,AB arpapaappa
+CEPVL,AB plpaappppa
+CEPVR,AB prpaappppa
+CEPshDL,AB arpaaaapp
+CEPshDR,AB arpaaapap
+CEPshVL,AB plpaaapap
+CEPshVR,AB prpaaapap
+CEPsoDL,AB alapapppp
+CEPsoDR,AB alapppppp
+CEPsoVL,AB alppaappp
+CEPsoVR,AB alaapappp
+CPO,P2 aap
+CP1,P3 aapp
+CP2,P4 aapp
+CP3,P5 aapp
+CP4,P6 aapp
+CP5,P7 aapp
+CP6,P8 aapp
+CP7,P9 aapp
+CP8,P10 aapp
+CP9,P11 aapp
+D,P0 pppa
+DA1,AB prppapaap
+DA2,AB plppapapa
+DA3,AB prppapapa
+DA4,AB plppapapp
+DA5,AB prppapapp
+DA6,AB plpppaaap
+DA7,AB prpppaaap
+DA8,AB prpapappp
+DA9,AB plpppaaaa
+DB1/3,AB plpaaaapp
+DB2,AB arappappa
+DB3/1,AB prpaaaapp
+DB4,AB prpappapp
+DB5,AB plpapappp
+DB6,AB plppaappp
+DB7,AB prppaappp
+DD1,AB plppappap
+DD2,AB prppappap
+DD3,AB plppapppa
+DD4,AB prppapppa
+DD5,AB plppapppp
+DD6,AB prppapppp
+DVA,AB prppppapp
+DVB,K p
+DVC,C aapaa
+DVE,B ppap
+DVF,B ppppa
+DX1/2,"F lvda,F rvda"
+DX3/4,"U laa,U raa"
+E,P0 pap
+EF1/2,"F lvda,F rvda"
+EF3/4,"U lap,U rap"
+F,AB plppppapp
+FLPL,AB plapaaapad
+FLPR,AB prapaaapad
+GLRDL,MS aaaaaal
+GLRDR,MS aaaaaar
+GLRL,MS apaaaad
+GLRR,MS ppaaaad
+GLRVL,MS apaaaav
+GLRVR,MS ppaaaav
+G1,AB prpaaaapa
+G2,AB plapaapa
+HOL,AB plaaappa
+HOR,AB arpapppa
+H1L,AB plaaappp
+H1R,AB arpapppp
+H2L,AB arppaaap
+H2R,AB arpppaap
+HOA,P10 pppa
+HOB,P10 ppap
+HOsh,P10 ppppp
+HOso,P10 ppaa
+HSNL,AB plapppappa
+HSNR,AB prapppappa
+I1L,AB alpapppaa
+I1R,AB arapappaa
+I2L,AB alpappaapa
+I2R,AB arapapaapa
+I3,MS aaaaapaa
+I4,MS aaaapaa
+I5,AB arapapapp
+I6,MS paaapaa
+IL1DL,AB alapappaaa
+IL1DR,AB alappppaaa
+IL1L,AB alapaappaa
+IL1R,AB alaappppaa
+IL1VL,AB alppapppaa
+IL1VR,AB arapppppaa
+IL2DL,AB alapappap
+IL2DR,AB alappppap
+IL2L,AB alapaappp
+IL2R,AB alaappppp
+IL2VL,AB alppapppp
+IL2VR,AB arapppppp
+ILshDL,AB alaaaparr
+ILshDR,AB alaaappll
+ILshL,AB alaaaalpp
+ILshR,AB alaapaapp
+ILshVL,AB alppapaap
+ILshVR,AB arapppaap
+ILsoDL,AB plaapaaap
+ILsoDR,AB praapaaap
+ILsoL,AB alaaapall
+ILsoR,AB alaaapprr
+ILsoVL,AB alppapapp
+ILsoVR,AB arapppapp
+K,AB plpapppaa
+K',AB plpapppap
+K.a,K a
+LUAL,AB plpppaapap
+LUAR,AB prpppaapap
+M,MS apaapp
+M1,MS paapaaa
+M2L,AB araapappa
+M2R,AB araappppa
+M3L,AB araapappp
+M3R,AB araappppp
+M4,MS paaaaaa
+M5,MS paaapap
+MCL,AB alpaaappp
+MCR,AB arapaappp
+MI,AB araappaaa
+MCML,AmsoL
+MCMR,AmsoR
+MS,P0 paa
+NSML,AB araapapaav
+NSMR,AB araapppaav
+OLLL,AB alppppapaa
+OLLR,AB praaapapaa
+OLLshL,AB alpppaapd
+OLLshR,AB praaaaapd
+OLLsoL,AB alapaaapp
+OLLsoR,AB alappappp
+OLQDL,AB alapapapaa
+OLQDR,AB alapppapaa
+OLQVL,AB plpaaappaa
+OLQVR,AB prpaaappaa
+OLQshDL,AB arpaaaapa
+OLQshSR,AB arpaaapaa
+OLQshVL,AB alpppaaap
+OLQshVR,AB praaaaaap
+OLQsoDL,AB arpaaaaal
+OLQsoDR,AB arpaaaaar
+OLQsoVL,AB alppaaapp
+OLQsoVR,AB alaappapp
+P0,Z
+P4,P0 pppp
+P1/2L,AB plapaapp
+P1/2R,AB prapaapp
+P3/4L,AB plappaaa
+P3/4R,AB prappaaa
+P5/6L,AB plappaap
+P5/6R,AB prappaap
+P7/8L,AB plappapp
+P7/8R,AB prappapp
+P9/10L,AB plapapap
+P9/10R,AB prapapap
+P11,AB plapappa
+P12,AB prapappa
+PCAL,Y plppd
+PCAR,Y prppd
+PCBL,Y plpa
+PCBR,Y prpa
+PCCL,B arpaaa
+PCCR,B alpaaa
+PChL,Y plaa
+PChR,Y praa
+PCshL,Y plppv
+PCshR,Y prppv
+PCsoL,Y plap
+PCsoR,Y prap
+PDA,AB prpppaaaa
+PDB,P12 apa
+PDC,P11 papa
+PDEL,V5L paaa
+PDER,V5R paaa
+PDEshL,V5L papp
+PDEshR,V5R papp
+PdEsoL,V5L papa
+PdEsoR,V5R papa
+PGA,P11 papp
+PHAL,AB plpppaapp
+PHAR,AB prpppaapp
+PHBL,AB plapppappp
+PHRB,AB prapppappp
+PHCL,TL pppaa
+PHCR,TR pppaa
+PHshL,AB plpppapaa
+PHshR,AB prpppapaa
+PHso1L,TL paa
+PHso1R,TR paa
+PHso2L,TL pap
+PHso2R,TR pap
+PLML,AB plapappppaa
+PLMR,AB prapappppaa
+PLNL,TL pppap
+PLNR,TR pppap
+PQR,QL ap
+PVCL,AB plpppaapaa
+PVCR,AB prpppaapaa
+PVDL,V5L paapa
+PVDR,V5R paapa
+PVM,QL paa
+PVNL,TL appp
+PVNR,TR appp
+PVPL,AB plppppaaa
+PVPR,AB prppppaaa
+PVQL,AB plapppaaa
+PVQR,AB prapppaaa
+PVR,C aappv
+PVT,AB plpappppa
+PVV,P11 paaa
+PVWL,TL ppa
+PVWR,TR ppa
+PVX,P12 aap
+PVY,P11 paap
+PVZ,P10 ppppa
+QL,AB plapapaaa
+QR,AB prapapaaa
+R1AL,"V5L pppppaaa,R1 aaa"
+R1AR,"V5R pppppaaa,R1 aaa"
+R1BL,"V5L pppppapa,R1 apa"
+R1BR,"V5R pppppapa,R1 apa"
+R1stL,"V5L pppppapp,R1 app"
+R1stR,"V5R pppppapp,R1 app"
+R2AL,"V6L papapaaa,R2 aaa"
+R2AR,"V6R papapaaa,R2 aaa"
+R2BL,"V6L papapapa,R2 apa"
+R2BR,"V6R papapapa,R2 apa"
+R2stL,"V6L papapapp,R2 app"
+R2stR,"V6R papapapp,R2 app"
+R3AL,"V6L papppaaa,R3 aaa"
+R3AR,"V6R papppaaa,R3 aaa"
+R3BL,"V6L papppapa,R3 apa"
+R3BR,"V6R papppapa,R3 apa"
+R3stL,"V6L papppapp,R3 app"
+R3stR,"V6R papppapp,R3 app"
+R4AL,"V6L pppapaaa,R4 aaa"
+R4AR,"V6R pppapaaa,R4 aaa"
+R4BL,"V6L pppapapa,R4 apa"
+R4BR,"V6R pppapapa,R4 apa"
+R4stL,"V6L pppapapp,R4 app"
+R4stR,"V6R pppapapp,R4 app"
+R5AL,"V6L pppppaaa,R5 aaa"
+R5AR,"V6R pppppaaa,R5 aaa"
+R5BL,"V6L pppppapa,R5 apa"
+R5BR,"V6R pppppapa,R5 apa"
+R5stL,"V6L pppppapp,R5 app"
+R5stR,"V6R pppppapp,R5 app"
+R6AL,"V6L ppppaaaa,R6 aaa"
+R6AR,"V6R ppppaaaa,R6 aaa"
+R6BL,"V6L ppppaapa,R6 apa"
+R6BR,"V6R ppppaapa,R6 apa"
+R6stL,"V6L ppppaapp,R6 app"
+R6stR,"V6R ppppaapp,R6 app"
+R7AL,"TL apappaaa,R7 aaa"
+R7AR,"TR apappaaa,R7 aaa"
+R7BL,"TL apappapa,R7 apa"
+R7BR,"TR apappapa,R7 apa"
+R7stL,"TL apappapp,R7 app"
+R7stR,"TR apappapp,R7 app"
+R8AL,"TL appaaaaa,R8 aaa"
+R8AR,"TR appaaaaa,R8 aaa"
+R8BL,"TL appaaapa,R8 apa"
+R8BR,"TR appaaapa,R8 apa"
+R8stL,"TL appaaapp,R8 app"
+R8stR,"TR appaaapp,R8 app"
+R9AL,"TL appapaaa,R9 aaa"
+R9AR,"TR appapaaa,R9 aaa"
+R9BL,"TL appapapa,R9 apa"
+R9BR,"TR appapapa,R9 apa"
+R9stL,"TL appapapp,R9 app"
+R9stR,"TR appapapp,R9 app"
+RIAL,AB alapaapaa
+RIAR,AB alaapppaa
+RIBL,AB plpaappap
+RIBR,AB prpaappap
+RICL,AB plppaaaapp
+RICR,AB prppaaaapp
+RID,AB alappaapa
+RIFL,AB plppapaaap
+RIFR,AB prppapaaap
+RIGL,AB plppappaa
+RIGR,AB prppappaa
+RIH,AB prpappaaa
+RIML,AB plppaapap
+RIMR,AB prppaapap
+RIPL,AB alpapaaaa
+RIPR,AB arappaaaa
+RIR,AB prpapppaa
+RIS,AB prpappapa
+RIVL,AB plpaapaaa
+RIVR,AB prpaapaaa
+RMDDL,AB alpapapaa
+RMDDR,AB arappapaa
+RMDL,AB alpppapad
+RMDR,AB praaaapad
+RMDVL,AB alppapaaa
+RMDVR,AB arapppaaa
+RMED,AB alapppaap
+RMEL,AB alaaaarlp
+RMER,AB alaaaarrp
+RMEV,AB plpappaaa
+RMFL,G2 al
+RMFR,G2 ar
+RMGL,AB plapaaapp
+RMGR,AB prapaaapp
+RMHL,G1 l
+RMHR,G1 r
+SAADL,AB alppapapa
+SAADR,AB arapppapa
+SAAVL,AB plpaaaaaa
+SAAVR,AB prpaaaaaa
+SABD,AB plppapaap
+SABVL,AB plppapaaaa
+SABVR,AB prppapaaaa
+SDQL,QL pap
+SDQR,QR pap
+SIADL,AB plpapaapa
+SIADR,AB prpapaapa
+SIAVL,AB plpapappa
+SIAVR,AB prpapappa
+SIBDL,AB plppaaaaa
+SIBDR,AB prppaaaaa
+SIBVL,AB plpapaapp
+SIBVR,AB prpapaapp
+SMBDL,AB alpapapapp
+SMBDR,AB arappapapp
+SMBVL,AB alpapappp
+SMBVR,AB arappappp
+SMDDL,AB plpapaaaa
+SMDDR,AB prpapaaaa
+SMDVL,AB alppappaa
+SMDVR,AB arappppaa
+SPCL,B alpaap
+SPCR,B arpaap
+SPDL,B alpapaa
+SPDR,B arpapaa
+SPVL,"B alaalda,B araalda"
+SPVR,"B araarda,B araarda"
+SPshDL,B alpapap
+SPshDR,B arpapap
+SPshVL,"B alaaldp,B araaldp"
+SpshVR,"B alaarda,B araarda"
+SPso1L,"B alpppl,B arpppl"
+SPso1R,"B alpppr,B arpppr"
+SPso2L,"B alaald,B araald"
+SPso2R,"B alaard,B araard"
+SPso3L,"B alaalv,B araalv"
+SPso3R,"B alaarv,B araarv"
+SPso4L,B alpapp
+SPso4r,B arpapp
+TL,AB plappppp
+TR,AB prappppp
+U,AB plppppapa
+URADL,AB plaaaaaaa
+URADR,AB arpapaaaa
+URAVL,AB plpaaapaa
+URAVR,AB prpaaapaa
+URBL,AB plaapaapa
+URBR,AB praapaapa
+URXL,AB plaaaaappp
+URXR,AB arpapaappp
+URYDL,AB alapapapp
+URYDR,AB alapppapp
+URYVL,AB plpaaappp
+URYVR,AB prpaaappp
+V1L,AB arppapaa
+V1R,AB arppppaa
+V2L,AB arppapap
+V2R,AB arppppap
+V3L,AB plappapa
+V3R,AB prappapa
+V4L,AB arppappa
+V4R,AB arpppppa
+V5L,AB plapapaap
+V5R,AB prapapaap
+V6L,AB arppappp
+V6R,AB arpppppp
+VA1,W pa
+VA2,P2 aaaa
+VA3,P3 aaaa
+VA4,P4 aaaa
+VA5,P5 aaaa
+VA6,P6 aaaa
+VA7,P7 aaaa
+VA8,P8 aaaa
+VA9,P9 aaaa
+VA10,P10 aaaa
+VA11,P11 aaaa
+VA12,P12 aaaa
+VB1,P1 aaap
+VB2,W aap
+VB3,P2 aaap
+VB4,P3 aaap
+VB5,P4 aaap
+VB6,P5 aaap
+VB7,P6 aaap
+VB8,P7 aaap
+VB9,P8 aaap
+VB10,P9 aaap
+VB11,P10 aaap
+VC1,P3 aap
+VC2,P4 aap
+VC3,P5 aap
+VC4,P6 aap
+VC5,P7 aap
+VC6,P8 aap
+VD1,W pp
+VD2,P1 app
+VD3,P2 app
+VD4,P3 app
+VD5,P4 app
+VD6,P5 app
+VD7,P6 app
+VD8,P7 app
+VD9,P8 app
+VD10,P9 app
+VD11,P10 app
+VD12,P11 app
+VD13,P12 app
+W,AB prapaapa
+XXXL,AB plaaapaa
+XXXR,AB arpappaa
+Y,AB prpppaaaa
+Z1,MS pppaap
+Z2,P4 p
+Z3,P4 a
+Z4,MS appaap
+arc ant DR,AB araaapppa
+arc ant DL,AB alpaappaa
+arc ant V,AB alpapaapa
+arc post DL,AB alpaapaaa
+arc post VL,AB alpaappap
+arc post DR,AB araaapaaa
+arc post D,AB araaappaa
+arc post VR,AB araaappap
+arc post V,AB arapapapa
+cc herm DL,M dlpa
+cc herm DR,M drpa
+cc male D,M dlpappp
+ccAL,MS apapaaa
+ccAR,MS ppapaaa
+ccPL,MS apapaap
+ccPR,MS ppapaap
+e1D,AB araaaapap
+e1VL,AB araaaaaaa
+e1VR,AB araaaaapa
+e2DL,AB alpaapaap
+e2DR,AB araaapaap
+e2V,AB alpappapa
+e3D,AB araapaaaa
+e3VL,AB alpaaaaaa
+e3VR,AB arapaaaaa
+exc_cell,AB plpappaap
+exc_duct,AB plpaaaapa
+exc_gl_L,AB plpapapaa
+exc_gl_R,AB prpapapaa
+exc_socket,G2 p
+g1AL,MS aapaapaa
+g1AR,MS papaapaa
+g1P,MS aaaaapap
+g2L,MS aapapaa
+g2R,MS papapaa
+gon_herm_anch,"Z1 ppp,Z4 aaa"
+gon_herm_dtc_A,Z1 aa
+gon_herm_dtc_B,Z4 pp
+gon_herm_dish_A,"Z1 apa,Z1 paaa"
+gon_herm_dish_P,"Z4 pap,Z4 appp"
+gon_herm_prsh_A,"Z1 appaaa,Z1 appaap,Z1 appapa,Z1 appapp,Z1 paapaaa,Z1 paapaap,Z1 paapapa,Z1 paapapp"
+gon_herm_prsh_P,"Z4 paapaa,Z4 paapap,Z4 paappa,Z4 paappp,Z4 appapaa,Z4 appapap,Z4 appappa,Z4 appappp"
+gon_herm_spth_A,"Z1 apppaaaa,Z1 apppaaap,Z1 apppaapa,Z1 apppaapp,Z1 apppapaa,Z1 apppapap,Z1 apppapp,Z1 appppa,Z1 appppp,Z1 paappaaaa,Z1 paappaaap,Z1 paappaapa,Z1 paappaapp,Z1 paappapaa,Z1 paappapap,Z1 paappapp,Z1 paapppa,Z1 paapppp,Z1 papaaad,Z1 papaaav,Z1 papaapv,Z4 apaaaad,Z4 apaaaav,Z4 apaaapv"
+gon_herm_spth_P,"Z4 paaaaa,Z4 paaaap,Z4 paaapaa,Z4 paaapapa,Z4 paaapapp,Z4 paaappaa,Z4 paaappap,Z4 paaapppa,Z4 paaapppp,Z4 appaaaa,Z4 appaaap,Z4 appaapaa,Z4 appaapapa,Z4 appaapapp,Z4 appaappaa,Z4 appaappap,Z4 appaapppa,Z4 appaapppp,Z4 apappav,Z4 apapppd,Z4 apapppv,Z1 papppav,Z1 pappppd,Z1 pappppv"
+gon_herm_sujn_A,"Z1 papaapd,Z1 papapaaa,Z1 ppaaaaa,Z1 ppaaapa,Z4 apaaapd,Z4 apaapaaa"
+gon_herm_sujn_P,"Z1 pappappp,Z1 papppad,Z4 apapappp,Z4 apappad,Z4 aapppap,Z4 aappppp"
+gon_herm_dut,"Z1 papapaap,Z1 papapapa,Z1 papapapp,Z1 papappaa,Z1 papappap,Z1 papapppa,Z1 papapppp,Z1 pappaaaa,Z1 pappaaap,Z1 pappaapa,Z1 pappaapp,Z1 pappapaa,Z1 pappapap,Z1 pappappa,Z4 apaapaap,Z4 apaapapa,Z4 apaapapp,Z4 apaappaa,Z4 apaappap,Z4 apaapppa,Z4 apaapppp,Z4 apapaaaa,Z4 apapaaap,Z4 apapaapa,Z4 apapaapp,Z4 apapapaa,Z4 apapapap,Z4 apapappa"
+gon_herm_vut,"Z1 ppaaaap,Z1 ppaaapp,Z1 ppaapaa,Z1 ppaapap,Z1 ppaappa,Z1 ppaappp,Z1 ppapaaa,Z1 ppapaap,Z1 ppapapa,Z1 ppapapp,Z1 ppappd,Z1 pppaad,Z1 pppaav,Z1 pppapd,Z1 pppapv,Z1 ppppad,Z1 ppppav,Z1 pppppaa,Z1 pppppap,Z1 ppppppa,Z1 ppppppp,Z4 aapaad,Z4 aapaav,Z4 aapapd,Z4 aapapv,Z4 aappaaa,Z4 aappaap,Z4 aappapa,Z4 aappapp,Z4 aapppaa,Z4 aappppa,Z1 ppaaaap,Z1 ppaaapp,Z1 ppaapaa,Z1 ppaapap,Z1 ppaappa,Z1 ppaappp,Z1 ppapad,Z1 ppapav,Z1 ppappd,Z1 ppappv,Z4 aaaaaaa,Z4 aaaaaap,Z4 aaaaapa,Z4 aaaaapp,Z4 aaaapd,Z4 aaaapv,Z4 aaapad,Z4 aaapav,Z4 aaappv,Z4 aaappd,Z4 aapaad,Z4 aapaav,Z4 aapapaa,Z4 aapapap,Z4 aapappa,Z4 aapappp,Z4 aappaaa,Z4 aappaap,Z4 aappppa,Z4 aappppp,Z4 aapppaa,Z4 aapppap"
+gon_male_dtc,"Z1 a,Z1 p"
+gon_male_link,"Z1 paa,Z4 aaa"
+gon_male_sves,"Z1 ppaaaaa,Z1 ppaaaap,Z1 ppaaap,Z1 ppaap,Z1 ppap,Z1 pppaaaa,Z1 pppaaap,Z1 pppaap,Z1 pppap,Z1 pppp,Z1 pappp,Z4 aaapp,Z4 aappp,Z4 apaaaaa,Z4 apaaaap,Z4 apaaap,Z4 apaap,Z4 apap,Z4 appaaaa,Z4 appaaap,Z4 appaap,Z4 appap,Z4 appp,Z1 paapp"
+gon_male_vdef,"Z1 papaaaa,Z1 papaaap,Z1 papaapaa,Z1 papaapap,Z1 papaappaa,Z1 papaappap,Z1 papaappp,Z1 papapa,Z1 papapp,Z1 pappa,Z4 aaaaaaa,Z4 aaaaaap,Z4 aaaaapaa,Z4 aaaaapap,Z4 aaaaappaa,Z4 aaaaappap,Z4 aaaaappp,Z4 aaaapa,Z4 aaaapp,Z4 aaapa,Z4 aapaaaa,Z4 aapaaap,Z4 aapaapaa,Z4 aapaapap,Z4 aapaappaa,Z4 aapaappap,Z4 aapaappp,Z4 aapapa,Z4 aapapp,Z4 aappa,Z1 paaaaaa,Z1 paaaaap,Z1 paaaapaa,Z1 paaaapap,Z1 paaaappaa,Z1 paaaappap,Z1 paaaappp,Z1 paaapa,Z1 paaapp,Z1 paapa"
+hmc,MS appaaa
+hyp1,"AB alpaapppa,AB araaapppp,AB arappaapa"
+hyp2,"AB alpaapppp,AB alpapaaap"
+hyp3,"AB plaapaaaa,AB praapaaaa"
+hyp4,"AB arpapapa,AB plaappaa,AB praappaa"
+hyp5,"AB arpappap,AB plaaapap"
+hyp6,"AB arpaapaa,AB arpapapp,AB plaaaapa,AB plaaaapp,AB plaappap,AB praappap"
+hyp7,"AB arpaapap,AB arpaappa,AB arpaappp,AB arppaapa,AB arpppapa,AB plaapppa,AB plaapppp,AB plappppa,AB praapppa,AB praapppp,AB prappppa,C aaaaa,C aaaap,C aaapa,C aaapp,C aappd,C paaaa,C paaap,C paapa,C paapp,C papaa,C papap,C pappd,H1L apa,H1L appa,H1L p,H1R apa,H1R appa,H1R p,H2L ap,H2L pa,H2L ppa,H2L pppa,H2R ap,H2R pa,H2R ppa,H2R pppa,V1L a,V1L paa,V1L papa,V1L pappa,V1L ppa,V1L pppa,V1L ppppa,V1R a,V1R paa,V1R papa,V1R pappa,V1R ppa,V1R pppa,V1R ppppa,V2L a,V2L paa,V2L papa,V2L pappa,V2L ppa,V2L pppa,V2L ppppa,V2R a,V2R paa,V2R papa,V2R pappa,V2R ppa,V2R pppa,V2R ppppa,V3L a,V3L paa,V3L papa,V3L pappa,V3L ppa,V3L pppa,V3L ppppa,V3R a,V3R paa,V3R papa,V3R pappa,V3R ppa,V3R pppa,V3R ppppa,V4L a,V4L paa,V4L papa,V4L pappa,V4L ppa,V4L pppa,V4L ppppa,V4R a,V4R paa,V4R papa,V4R pappa,V4R ppa,V4R pppa,V4R ppppa,V5L a,V5L ppa,V5L pppa,V5L ppppa,V5R a,V5R ppa,V5R pppa,V5R ppppa,V6L a,V6L paa,V6L papa,V6L pappa,V6L ppa,V6L pppa,V6L ppppa,V6R a,V6R paa,V6R papa,V6R pappa,V6R ppa,V6R pppa,V6R ppppa,TL aa,TL apaa,TL apap,TR aa,TR apaa,TR apap,V5L a,V5L ppa,V5L pppaa,V5L pppapa,V5L ppppa,V5R a,V5R ppa,V5R pppa,V5R pppapa,V5R ppppa,V6L a,V6L paa,V6L papaa,V6L pappa,V6L ppa,V6L pppaa,V6L ppppap,V6R a,V6R paa,V6R papaa,V6R pappa,V6R ppa,V6R pppaa,V6R ppppap,TL aa,TL apaa,TL apapa,TL apappp,TL appaap,TL appapp,TR aa,TR apaa,TR apapa,TR apappp,TR appaap,TR appapp,P1 p,P2 p,P3 pa,P3 pp,P4 pa,P4 pp,P8 pa,P8 pp,P9 p,P10 p,P11 p,P3 p,P4 p,P5 p,P6 p,P7 p,P8 p,P10 papa,P10 paap,P10 paaa"
+hyp8/9,"AB plpppapap,AB prpppapap"
+hyp10,"AB plppppppp,AB prppppppp"
+hyp11,C pappv
+hyp12,P12 pa
+hyp_hook,"P10 papp,P11 ppaa,P11 ppap,P11 ppp"
+int,"E alaad,E alaav,E alap,E alpa,E alpp,E araad,E araav,E arap,E arpa,E arpp,E plaa,E plap,E plpa,E plppa,E plppp,E praa,E prap,E prpa,E prppa,E prppp,In a,In p"
+linker_killer,U lp or U rp
+pm1DL,AB araapaaap
+pm1DR,AB araappaap
+pm1L,AB araaaaaap
+pm1R,AB araaaaapp
+pm1VL,AB alpaaaapa
+pm1VR,AB arapaaapa
+pm2DL,AB araapaapa
+pm2DR,AB araappapa
+pm2L,AB alpaaapaa
+pm2R,AB arapaapaa
+pm2VL,AB alpaaaaap
+pm2VR,AB arapaaaap
+pm3DL,MS aaapaaa
+pm3DR,MS paaaapa
+pm3L,AB alpaapapp
+pm3R,AB arapaappa
+pm3VL,AB alpappppp
+pm3VR,AB arapapppp
+pm4DL,MS aaaaapp
+pm4DR,MS paaaapp
+pm4L,MS aaapaap
+pm4R,AB araaapapp
+pm4VL,MS aapaaaa
+pm4VR,MS papaaaa
+pm5DL,MS aaaapap
+pm5DR,MS paaappa
+pm5L,AB araapapap
+pm5R,AB araapppap
+pm5VL,MS aapaaap
+pm5VR,MS papaaap
+pm6D,MS paaappp
+pm6VL,MS aapappa
+ppm6VR,MS papappa
+pm7D,MS aaaappp
+pm7VL,MS aapaapp
+pm7VR,MS papaapp
+pm8,MS aaapapp
+mc1DL,AB alpaapapa
+mc1DR,AB araaapapa
+mc1V,AB alpappppa
+mc2DL,AB araapaapp
+mc2DR,AB araappapp
+mc2V,AB arapapppa
+mc3DL,MS aaapapa
+mc3DR,MS paapapa
+mc3V,AB alpappapp
+mu_anal,AB plpppppap
+mu_bod,"AB prpppppaa,C apaaaa,C apaaap,C apaapa,C apaapp,C apapaa,C apapap,C apappa,C apappp,C appaaa,C appaap,C appapa,C appapp,C apppaa,C apppap,C appppd,C appppv,C ppaaaa,C ppaaap,C ppaapa,C ppaapp,C ppapaa,C ppapap,C ppappa,C ppappp,C pppaaa,C pppaap,C pppapa,C pppapp,C ppppaa,C ppppap,C pppppd,C pppppv,D aaaa,D aaap,D aapa,D aapp,D apaa,D apap,D appaa,D appap,D apppa,D apppp,D paaa,D paap,D papa,D ppap,D ppaa,D ppap,D pppaa,D pppap,D ppppa,D ppppp,MS aapppaa,MS aapppap,MS aappppa,MS aappppp,MS apaaap,MS apapap,MS apappa,MS apappp,MS appapp,MS apppaa,MS apppap,MS appppa,MS appppp,MS pappaa,MS pappap,MS papppaa,MS papppap,MS pappppa,MS pappppp,MS ppaaap,MS ppapap,MS ppappa,MS ppappp,MS pppapp,MS ppppaa,MS ppppap,MS pppppa,MS pppppp,M dlaa,M dlap,M dlpp,M draa,M drap,M drpp,M vlaa,M vlap,M vlpap,M vlpp,M vraa,M vrap,M vrpap,M vrpp"
+mu_int_L,AB plpppppaa
+mu_int_R,MS ppaapp
+mu_male_diag,"M dlpaaaap,M dlpaaapa,M dlpaaapp,M dlpaapaa,M dlpaapap,M dlpapaaa,M dlpapaap,M drpaaaap,M drpaaapa,M drpaaapp,M drpaapaa,M drpaappa,M drpaapap,M drpapaaa,M drpapaap"
+mu_male_gub,"M dlpappap,M drpappap,M dlpapapa,M drpapapa"
+mu_male_long,"M vlpaaaaa,M vlpaaaap,M vlpaaapa,M vlpaaapp,M vlpaapp,M vrpaaaaa,M vrpaaaap,M vrpaaapa,M vrpaaapp,M vrpaapp"
+mu_male_obliq,"M dlpapapp,M dlpappaa,M drpapapp,M drpappap"
+mu_male_spic,"M dlpaaaaa,M dlpaappa,M dlpaappp,M prpaaaaa,M drpaappp,M drpappaa,M vlpaapa,M vrpaapa"
+mu_sph,AB prpppppap
+um2,"M vlpaaaaa,M vlpaappp,M vrpaaaaa,M vrpaappp"
+um1,"M vlpaaaap,M vlpaappa,M vrpaaaap,M vrpaappa"
+vm2,"M vlpaaapa,M vlpaapap,M vrpaaapa,M vrpaapap"
+vm1,"M vlpaaapp,M vlpaapaa,M vrpaaapp,M vrpaapaa"
+proct,"B alaalv,B araalv,B alaarv,B araarv,B alapaad,B alapapa,B alapapp,B alappv,B alppalv,B arppalv,B alppald,B arppald,B alpparv,B arpparv,B alppl,B arppl,B alppr,B arppr,B arapaad,B arapapa,B arapapp,B arappv,B paa,B pap,B pppa,F lvv,F rvv"
+R1_hyp,"V5 pppppp,R1 p"
+R2_hyp,"V6 papapp,R2 p"
+R3_hyp,"V6 papppp,R3 p"
+R4_hyp,"V6 pppapp,R4 p"
+R5_hyp,"V6 ppppap,R5 p"
+R6_hyp,"V6 pppppp,R6 p"
+R7_hyp,"T apappp,R7 p"
+R8_hyp,"T appaap,R8 p"
+R9_hyp,"T appapp,R9 p"
+rect_D,AB plpappppp
+rect_VL,AB plppppaap
+rect_VR,AB prppppaap
+se,"H1L aa,H1L appp,H1R aa,H1R appp,H2L pppp,H2R pppp,V1L pappp,V1L ppppp,V1R pappp,V1R ppppp,V2L pappp,V2L ppppp,V2R pappp,V2R ppppp,V3L pappp,V3L ppppp,V3R pappp,V3R ppppp,V4L pappp,V4L ppppp,V4R pappp,V4R ppppp"
+se_herm,"V5L ppppp,V5R ppppp,V6L pappp,V6L ppppp,V6R pappp,V6R ppppp,TL appa,TR appa"
+se_male,"V5L pppapp,V5R pppapp"
+set,"V5L pppppp,V5R pppppp,V6L papapp,V6L papppp,V6L pppapp,V6L pppppp,V6R papapp,V6R papppp,V6R pppapp,V6R pppppp"
+spike,"AB plppppppa,Ab prppppppa"
+virL,AB prpappppp
+virR,AB prpappppa
+vpi1,MS paapapp
+vpi2DL,MS aapappp
+vpi2DR,MS papappp
+vpi2V,MS aappaa
+vpi3D,MS aaappp
+vpi3V,MS aappap
+vulva,"P5 paaa,P5 paap,P5 papa,P5 papp,P5 ppal,P5 ppar,P5 ppp,P6 paal,P6 paar,P6 papl,P6 papr,P6 ppal,P6 ppar,P6 pppl,P6 pppr,P7 paa,P7 papl,P7 papr,P7 ppaa,P7 ppap,P7 pppa,P7 pppp"
