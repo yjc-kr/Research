@@ -1,3 +1,10 @@
+# Table of Contents
+[1. Introduction](#1-introduction) \
+[2. In vitro clonal expansion from postmortem tissue](#2-in-vitro-clonal-expansion-from-postmortem-tissue)\
+[3. Clonal dynamics in early human embryogenesis inferred from somatic mutation](#3-clonal-dynamics-in-early-human-embryogenesis-inferred-from-somatic-mutation)
+
+
+
 # 1. Introduction
 - p.2
   - 220 types of cells
@@ -285,7 +292,8 @@
 ### 3.2.9. Estimating the number of inner cell mass precursor cells and mutation rate in early embryogenesis
 
 > epiblast:  Inner cell mass (ICM) 안에서 위쪽 부분의 cell layer\
-> blastomer: 수정란이 분열하면서 생기는 세포들
+> blastomer: 수정란이 분열하면서 생기는 세포들 \
+> epiblast precursor: ??
 
 - p.50
   - There are several studies of developmental bias among blastomers at early stage of embryogenesis. 
@@ -294,8 +302,229 @@
     - 4 parameters
       - \# of blastomers contributing to epiblasts ($n$)
       - the stage at which the precursors of epiblasts are chosen ($s$)
-      - mutation rate b/f zygotic genome activation ($R_{\leq 2}$)
+      - mutation rate b/f zygotic genome activation(ZGA) ($R_{\leq 2}$)
       - mutation rate a/f zygotic genome activation ($R_{>2}$)
-  -  
-
+    -  Assumption
+       -  zygotic activation occur at 4 cell stage.
+       -  All cell have same division rate = simultaneously double at stage s.
+       -  All cells at stage s are equally likely to be epiblast precursors.
+       -  All cells randomly distribute over embryo b/f precursor selection.
+       -  Mutation rates are constant at each time period, follow Poisson distribution.
+       -  Cell loss do not occur.
+    -  From fertilized egg, cells are doubled at each stage, and somatic mutation accumulate w/ mutation rate (varies b/f and a/f of ZGA). 
+    -  At stage $n_{preEPI}$, cell number = $n_{preEPI} \times 2^{15}$.
+    -  Among them, $n_{samples}$ cells are selected.
+    -  Reconstruct phylogenetic tree by using somatic mutations accumulated in each cell. 
+    -  Simulation
+       -  it = 500,000 times
+       -  Parameters
+          -  drawn from uniform distribution w/ following ranges
+             -  $n_{preEPI} \in [2,7]$
+             -  $s \in [1, 2^{n_{preEPI}-1}]$
+             -  $R_{\leq 2} \in [2.0, 10.0]$
+             -  $R_{> 2} \in [0.5, 2.0]$
+       -  Simulated tree + DB3, DB6, DB8, DB9, DB10, statistics were calculated.
+       -  Statistics
+          -  \# of shared mutations b/w more than 2 samples = $\displaystyle\Sigma_{branches} m$, where $m$ = \# of mutations assigned to each branch
+          -  \# of sample groups split right after fertilization = $n_{1st\ lineage}$
+          -  \# of mutations assigned to each first branch
+          -  Multifurcation score, defined as $\frac{\Sigma_{nodes} n_{branches}}{n_{nodes}}$, where each denote the number of branches for each node and the total number of nodes, respectively
+       -  Result
+          -  Showed similar statistics
+          -  To estimate posterior distribution of $M_{0}$ and $M_{1}$, used neural network regression algorithm in `abc` of `R`.
+  
 [^Bertorelle(2010)]: Bertorelle, Benazzo, and Mona, 2010
+  
+### 3.2.10. Separation of skin tissues into epidermis and dermis
+
+- p.53
+  - Techniques
+
+### 3.2.11. Targeted deep sequencing for bulk tissues
+
+- p.53
+  - To estimate the contribution of early embryogenic cell lineages in adult tissues, deep targeted sequencing on bulk tissues was performed from various organs.
+  - Custom DNA bait sets were designed to include all early embryonic SNVs and several randomly-chosen germline mutations according to the guideline
+    - Among 441 early embryonic mutations targeted, 409 mutations have high-quality baiats.
+  - Sequences reads were trimmed and mapped to human reference genome by BWA-MEM algorithm. 
+  - Reads w/ mapping quality $\geq$ 20 & base quality $\geq$ 20 were included for analysis.
+
+### 3.2.12. Discovery variants in mitochondrial genome
+
+- p.54
+  - Because reads from inserted mitochondrial sequence in nuclear DNA (nuclear mitochondrial DNA transfer, NUMT) can be misaligned to chrM, we included reads mapped to chrM only if both paired reads
+    - mapped to chrM
+    - mapped properly in pair
+    - had read length $\leq$ 100 bp
+    - no chimeric alignment
+  - Filtered mitochondrial variants according to the criteria:
+    - VAF cutoff to each each mitochondrial variant by manually inspecting the VAF histogram of corresponding variant histogram over whole samples
+      - 0.5% appear to be optimal for majority of variants.
+      - For each sample, variants w/ VAF < cutoff were discarded.
+    - Average variant position in supporting reads relative to read length should be b/w 10% to 90%. Variants that fall outside were filtered out.
+    - Due to the highly repetitive nature of mitochondrial genome, indel mutations appear to be more subject to false positive. So, applied stringent filtering criteria to indel mutations.
+      - More than half of supporting reads of an indel mutation should have no additional mutations within 10 bp.
+    - Variants fell into following region (error in reference mtDNA) were explicitly removed
+      - rCRS 302-315
+      - rCRS 513-525
+      - rCRS 3105-3109
+ 
+### 3.2.13. Simulating mitochondrial heteroplasmy in maternal line
+
+- p.55
+  - mtDNA present in many copies per cell, and inherited through the maternal germline.
+  - Single cell has different mtDNA variants, and level can vary considerably b/w cells (mitochondrial heteroplasmy)
+  - Attempted to infer the number of clones/levels of mitochondrial heteroplasmy in oocyte using simplified random-drift segregation model.
+    - Cell has 1,000 copies of mtDNA
+    - Partitioned to two daughter cells w/ equal amount
+    - All mtDNA are doubled to reach 1,000 copies of mtDNA in a daughter cells.
+    - $f$% of mtDNA in a fertilized egg has same variant (MT-mtDNA)
+    - Variant is neutral -> MT-mtDNA replicates at same rate as wild type mtDNA (WT-mtDNA)
+  - After 15 generations, $n_{samples}$ are randomly selected. 
+  - Calculate 2 statistics
+    - proportion of samples harboring MT-mtDNA ($p$)
+    - median heteroplasmic level of MT-mtDNA ($h$)
+  - it = 500,000 times
+  - parameter $\in$ $[10^{-3}, 1]$
+  - Estimated posterior distribution of $f$ using neural network regression in ABC
+
+### 3.2.14. Mutational Signature Analysis
+- p.57
+  - Estimated contributions of mutational signatures to observed mutational spectrum in each sample.
+    - Can be achived by solving $\displaystyle\argmin_{h} ||v - W\mathbf{h}||^{2}_{2}$.
+      - $v$ = observed counts of each mutation type $v$ from a sample
+      - $W$ = pretrained mutational signature matrix
+    - used `pracma` in `R`
+    - \# of mutational signatures = free parameter, and is to be determined for each sample.
+      - Examined the results to sort out from v.3 of COSMIC mutational signature catalogue
+      - To avoid overfitting, narrowed handful of signatures by excluding signatures (cosine similarity $\gtrapprox$ 0.9)
+
+### 3.2.15. Copy number variations and structural variations
+> 이 section 이해 ?
+- p.58
+  - Identified somatic genomic rearrangements of WGS samples using a matched blood sample as a control
+  - Filtered somatic rearrangements in same way as our prev. report.
+
+### 3.2.16. Timing estimation of copy number gains
+
+- p.59
+  - Estimated $n_{mut}$ by $n_{mut} = f_{s} \frac{1}{\rho}[\rho\cdot n_{locus}^{t} + n_{locus}^{n}(1-\rho)]$
+    - $f_{s}$: variant allele fraction
+    - $\rho$: tumor cellularity
+    - $n_{locus}^{t}$: absolute copy numbers in tumor
+    - $n_{locus}^{n}$: absolute copy numbers in normal cells
+    - The equation simplified into $n_{mut} = f_{s}\cdot n_{locus}$, because $\rho = 1$.
+  - $n_{locus} = 2 \times \frac{RD_{locus} / Cov_{sample}}{RD_{locus}^{blood} / Cov_{blood}}$
+    - $RD_{locus}$ = read depth of the locus of interest in sample = mean coverage of $Cov_{sample}$
+  - The probabilities of pre-amplification ($P_{pre}$), post-amplification ($P_{post}$) were evaluated by using binomial distribution
+    - $B_{pre} = \binom{DP}{VC} (\frac{n_{major}}{n_{locus}})^{VC}(1 - \frac{n_{major}}{n_{locus}})^{DP - VC}$
+    - $B_{post} = \displaystyle\sum_{i=1}^{n_{major} - 1}\binom{DP}{VC}(\frac{i}{n_{locus}})^{VC}(1 - \frac{i}{n_{locus}})^{DP - VC}$
+      - DP = total read depth
+      - VC = variant read count
+  - Finally, 
+    - $P_{pre} = \frac{B_{pre}}{B_{pre} + B_{post}}$
+    - $P_{post} = \frac{B_{post}}{B_{pre} + B_{post}}$
+  - Then, expected number of pre-amplification substitutions ($E_{pre}$) by $P_{pre}$. 
+    - Also, var = $P_{pre} \times (1 - P_{pre})$ for z-scores.
+  - Density of pre-amplification mutations in the amplicon ($E_{pre} / (\text{length of amplicon})$) was converted to genome-wide density.
+  - Then, translated into physical timescale assuming const. mutation rate.
+
+## 3.3. Results
+- p.61
+  - 2 experimental conditions are necessary
+    - sensitive and precise detection of early mutations
+    - extensive investigation of their distribution in various human tissues.
+  - Used strategy of capture-recapture of somatic mutations, used in tracking hematopoietic stem cells. (Fig. 1a) [^Coorens(2019)]
+
+[^Coorens(2019)]: Coorens et al., 2019
+
+### 3.3.1. Discovery of early embryonic muttations
+- p.61
+  - 'Capture'
+    - Clonal expansion failed (DB 1, 4, 7)
+    - Partially successful (DB 2, 5)
+    - Successful (DB 3, 6, 8, 9, 10)
+    - From 7 cases
+      - 334 clones of few cell types, mostly from skin fibroblasts
+    - WGS, avg 25x depth
+      - All types of somatic variations explored
+  - 'Recapture'
+    - Dissect small bulk tissues from organsand anatomical locations encompassing 3 germ layers in successful cases
+    - Skin tissue was separated as many as possible
+      - seperated into epidermis and dermis.
+    - Deep sequencing (911x on avg.)
+  - 'Capture' Result
+    - identified overall 1,647,684 somatic single base substitutions (SNVs) and 40,968 indels
+    - Checked whether variants were acquired during in vitro clonal expansion of single-cells
+      - 4 evidences whether true somatic mutations harbored in original single cell
+        1. VAFs were distributed around 50% -> VAFs were harbored in all cells of a colony
+        2. Mutational spectrums were delineated by biological mutational signatures (rather than signature of artifacts)
+        3. Calculated \# of culture-associated mutations w/ 3 pairs of serial single cell expansion in DB10. -> avg. 7.6% of mutations can be culture-associated.
+        4. In male, only 3.3% of mutations in X chromosome exhibit heterozygous-like patterns (VAF<0.7)
+
+### 3.3.2. Reconstruction of phylogenetic trees
+- p.63
+  - From 279 clones w/ whole body clones, detected overall 1,121,975 somatic substitutions and 29,157 somatic indels.
+    - 90,142 substitutions and 2,107 indels were shared by 2 or more clones
+    - Informative for construction of clonal phylogenetic trees
+  - L1, L2 mutation groups <- Few mutations completely partitioned into 2 groups
+    - Mutually exclusive in 5 individuals
+    - Subclonally found in all bulk polyclonal tissues, w/ VAFs $\approx$ 50% -> Clonal markers for two earlist ancestral cells of DB3 adult tissues
+  - Most clone pairs diverged from each other b/f ~ 30 mutations by molecular time
+  - Tree
+    - Anatomically adjacent cells were not always developmentally more close
+    - Defined 488 substitutions and 49 indels as alterations acquired in early embryogenesis.
+    - Data shows that indels accumulate from the early embryogenesis, w/ 10% of the base substitution rate, as observed in general cancer tissues
+  - The composition of mutational signatures of early embryogenesis differs from that of adult period.
+
+### 3.3.3. Asymmetry and mutation rate in early embryogenesis
+
+- p.65
+  - From 5 phylogenetic trees, observed 2 common characteristics in early clonal dynamics
+    1. Polytomy was often observed from the second cell generations.
+    2. As observed previously, two earlist ancestral cells contribute unequally to adult tissues.
+       - e.g. 112 lineages in DB6 were splitted to 6.5:1
+    - This result is not caused by random sampling error, because assymmetric VAFs were conserved.
+  - Asymmetry level was variable : 1.4:1 to 6.5:1
+  - Most of asymmetries were well conserved in bulk tissues
+    - balanced sampling of early embryonic lineages in experiment
+  - Asymmetry was structured in early foudner cell b/f exponential expansion.
+    - Some extent of stochasticity is involved.
+  - Exact timing of distinction b/w trophoblast and Inner cell mass (ICM) were unknown.
+  - Early mutation rate : 1.4 ~ 6.3 per cell per division (pcpcd) b/f zygotic genome activation (ZGA)
+  - a/f ZGA, mutation rate: 0.8 ~ 1.9 pcpcd
+    - may be due to the lack of mature DNA repair processes earlier than ZGA in embryos
+
+### 3.3.4. Cell fate primed in early embryonic cells
+- p.68
+  - Traced contribution of early cells in various bulk tissues
+    - from 9~15 mutations by molecular time, VAFs of early mutations are consistently lower in ectodermal tissues than from mesodermal/endodermal.
+    - Implies few lineages specifically contributing to ectodermal tissues, but not limited to each -dermal tissue.
+  - Compared VAFs of early mutations in left-right axis & upper-lower tissue.
+    - asymmetry on l/r in DB3 and DB6
+    - asymmetry on cranio-caudal axes
+    - l/r asymmetry appear faster than cranio-caudal
+  - Contribution of each cell
+    - Hematopoietic cell vs. non-hematopoietic cell
+      - 5~10 mutations in molecular time
+        - e.g. blood contribution ratio = 84:16, 72:28
+
+### 3.3.5. Heteroplasmy of mitochondrial DNA
+> Heteroplasmy: 한 세포에 여러개의 소기관 게놈이 존재하는 것
+
+- p.70
+  - Heteroplasmy most of then are singleton (similar w/ somatic mutation), but some are not (may derived from ancestor cell, which was heteroplasmy)
+  - From random-drift model, heteroplasmic level : mostly 29.8%
+
+### 3.3.6. UV-associated mutations in late period
+
+- p.71
+  - has strong correlation.
+
+### 3.3.7. Frequent loss of sex chromosome in normal cells
+- p.73
+  - Investigated somatically acquired structural variations in clones
+  - X, Y are vulnerable in copy number changes (48%)
+  - 이해...
+
+## 3,4, Discussionse
