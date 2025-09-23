@@ -1,9 +1,27 @@
 # 1. Mosaic Variants During Lifetime
 
 ## 1.1. Introduction
-
+- p.1.
+  - Mosaic genome variation = difference in DNA sequence b/w cells of the same individual
+    - Types
+      - Single nucleotide variants (SNV)
+      - Small insertions and deletions (indel)
+      - Structural variants = variants other than SNV and indel
+        - Copy number alterations (CNA)
+        - Copy number neutral losses of heterozygosity (CNN-LOH)
+        - Sequence inversions
+        - Interchromosomal translocations
+        - Chromosomal aneuploidies
+        - Multiploidies
+        - Insertions of retrotransposable elemtents
+  - Variants that reduce cell proliferation or viability are likely to be less frequent in a tissue.
+  - Variants that increase proliferation or viability will likely be more frequent.
 
 ## 1.2. Mosaic Variants in Development and Aging
+
+- p.3.
+  - Rates at which genomes accumulate mutations in development and aging are only partially known.
+    - 
 
 ## 1.3. Application of Mosaic Variants for Cell Lineage Tracing
 
